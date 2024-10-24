@@ -27,9 +27,6 @@ spec:
               value:  YtDEVWnL35aAIP-5yxeLjAZ49R920-mMNDfwPyWULu63HFsYzo0f-LO2InxC8eu428k
           ports:
             - containerPort:  8000
-          args:
-            - sleep
-            - 1d
           resources:
             requests:
               cpu:  200m
